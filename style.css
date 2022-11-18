@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'PT Sans', sans-serif;
+   background: linear-gradient(140deg, dodgerblue 20%, royalblue 80%);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 100vh;
+}
+.container{
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.container h2{
+    margin: 20px 0;
+    text-align: left;
+    color: white;
+}
+form div i{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+form input{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    color: white;
+}
+form button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: dodgerblue;
+    margin-top: 15px;
+}
+.container .login-detail{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: white;
+}
+.login-detail span{
+    font-weight: bold;
+}
+.container h4{
+    margin-top: 20px;
+    color: white;
+}
